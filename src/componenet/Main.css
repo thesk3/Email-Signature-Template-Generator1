@@ -1,0 +1,57 @@
+.Main {
+ 
+  background:linear-gradient(to right, #1a98c2, #4f83cc); 
+  overflow-x: hidden;
+    width: 100%;
+    overflow-y: scroll;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    min-height: 50%;
+}
+
+.Empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+}
+.main-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.topcomponent{
+  width: 80%;
+  margin-bottom: 3rem;
+  margin-top:1em;
+    color: white;
+  display: flex;
+  flex-direction: column;
+}
+.tag{
+  display: flex;
+    width: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+.email-text{
+ 
+  text-align: right;
+  font-size: 1.25rem;
+  
+}
+.awsome{
+  font-size: 26px;
+    
+}
